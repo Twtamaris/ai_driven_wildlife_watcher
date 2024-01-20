@@ -7,7 +7,7 @@ model = load_model('model2.h5')
 
 labels = ['animal', 'deforestation', 'fire', 'forest']
 
-image_path = cv2.imread('1.jpg')
+image_path = cv2.imread('3.jpg')
 img = cv2.resize(image_path, (64, 64))
 img = image.img_to_array(img)
 img = img.astype("float32")/255.0
